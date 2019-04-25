@@ -371,21 +371,13 @@ public class Tubessbd {
     //METHOD FUNCTION CARI TABEL
     public static int cariTabel(String cari, String[] data2, String[] data3, String[] data4) {
         int j = 0;
-        System.out.println(cari);
-        System.out.println(data2[0]);
-        System.out.println(data3[0]);
-        System.out.println(data4[0]);
-            if (cari.equals(data2[0])) {
-                System.out.println("ooioo");
-                j = 1;
-            }else if (cari.equals(data3[0])) {
-                System.out.println("eiei");    
-                j = 2;
-            }       
-            else if (cari.equals(data4[0])) {
-                System.out.println("aiaiai");
-                j = 3;
-            }            
+        if (cari.equals("lagu")) {
+            j=1;
+        } else if (cari.equals("pendengar")){
+            j=2;
+        } else if (cari.equals("playlist_premium")) {
+            j=3;
+        }
         return j;
     }
 }

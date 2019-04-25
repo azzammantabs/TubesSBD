@@ -1,0 +1,4 @@
+P 3;B 8192#
+lagu;idlagu;judul;penyanyi;durasi;genre;R 112;n 1000;V 5#
+pendengar;username;password;email;nohp;R 86;n 100;V 10#
+playlist_premium;username;idlagu;verifikasi;R 120;n 10000;V 8#
